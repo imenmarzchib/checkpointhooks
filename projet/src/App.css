@@ -1,0 +1,131 @@
+.App {
+  text-align: center;
+
+}
+
+.box {
+  display: flex;
+  flex-wrap: wrap;
+background-color:black;
+  justify-content: space-evenly;
+
+}
+
+.p {
+  max-width: 220px !important;
+  max-height: 220px !important;
+}
+
+.card {
+  width: 300px;
+  height: 500px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 8px;
+  border-radius: 20px;
+}
+
+.btn-add{
+  padding: 5px;
+  border-radius: 10px;
+  width: 200px;
+  justify-content: flex-start;
+  align-items: flex-end;
+  margin-top: 10px;
+}
+.card img {
+  width: 300px;
+  height: 180px;
+  object-fit: cover;
+}
+
+.card .btn {
+  width: 180px;
+  margin: 0 auto;
+
+}
+.btn-primary {
+    color: #fff;
+    background-color: white !important; 
+     border-color: white !important; 
+}
+.page2 {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: space-between;
+  align-items: center;
+  width: 60vw;
+  margin-left: 20vw;
+  height: 100vh;
+}
+
+.page1 {
+  background-image: url("https://thumbs.dreamstime.com/b/movie-premiere-concept-clapperboard-popcorn-white-background-top-view-space-text-watching-film-cinema-155772295.jpg");
+  justify-content: center;
+  height: 600px;
+  width: 100%;
+  background-size: cover;
+  background-repeat:no-repeat;
+  display: flex;
+}
+.modal-bg{
+  width: 80%;
+
+}
+.modal-content {
+ /* margin: 0 auto; */
+  flex-direction: column;
+  position: absolute;
+  line-height: 35px;
+  z-index: 9999999999999999999;
+   margin-left: 240px !important; 
+  border-radius: 20px;
+  /* width: 50% !important; */
+  border: none !important;
+  /* margin-bottom: 100px; */
+  background-color: transparent !important;
+ /* margin-top: 2px !important; */
+}
+.modal-content input{
+  border: 1px;
+  border-color: black;
+  border-radius: 20px;
+  margin: 10px auto;
+  height: 50px;
+  width: 500px;
+  background-color: rgba(250, 203, 31, 0.603);
+}
+.modal-btn{
+  width: 200px;
+  margin: 10px auto;
+  height: 40px;
+}
+
+.d-flex {
+  margin-left: 600px;
+}
+
+.me-2 {
+  display: flex !important;
+  flex-direction: row !important;
+  width: 300px;
+  margin-left: 150px;
+
+}
+
+.undefined react-stars {
+  display: flex !important;
+  flex-direction: row !important;
+}
+
+/* .input {
+
+  border: none;
+  border-radius: 20px;
+  margin: 0 auto;
+  margin: 5px;
+} */
